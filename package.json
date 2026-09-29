@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "seed": "node nextjs-blog/seed-posts.mjs"
+  },
+  "dependencies": {
+    "date-fns": "^4.4.0",
+    "firebase": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
